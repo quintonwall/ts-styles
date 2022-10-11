@@ -34,14 +34,14 @@
     /******** Buttons ********/
     
     /* App wide button design for main buttons*/
-    --ts-var-button-border-radius: 3px;
+    --ts-var-button-border-radius: 10px;
     
     /* App wide button design for smaller buttons (ex: share, favorite, etc.)*/
-    --ts-var-button--icon-border-radius: 3px;
+    --ts-var-button--icon-border-radius: 5px;
   
     /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
     /* Note: In Radiant design, primary button color will be shade 60, hover shade 70 */
-    --ts-var-button--primary-color: initial;
+    --ts-var-button--primary-color: #18d366;
     --ts-var-button--primary-background: #676666;
     --ts-var-button--primary--hover-background: #c70ec1;
     --ts-var-button--primary--font-family: 'Courier Prime';
