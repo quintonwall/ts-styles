@@ -22,7 +22,7 @@
     /*App background, app-wide font, app-wide text transform */
     /* Note: In Radiant design, background app color will be shade 10 */
     --ts-var-root-background: #222;
-    --ts-var-root-font-family: 'Open Sans', sans-serif;
+    --ts-var-root-font-family: 'Anonymous Pro';
     --ts-var-root-text-transform: initial;
   
     /******** Nav bar ********/
