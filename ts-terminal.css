@@ -2,11 +2,11 @@
 * Dark mode
 */
 @font-face {
-    font-family: 'Anonymous Pro';
+    font-family: 'Courier Prime';
     font-style: normal;
     font-weight: 200;
     font-display: swap;
-    src: url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+    src: url(https://fonts.googleapis.com/css?family=Courier+Prime);
   }
   
   /******** Useful design resources ********/
@@ -17,19 +17,19 @@
     /******** App ********/
     
     /*Currently undefined */
-    --ts-var-root-color: initial; 
+    --ts-var-root-color: #222; 
     
     /*App background, app-wide font, app-wide text transform */
     /* Note: In Radiant design, background app color will be shade 10 */
     --ts-var-root-background: #222;
-    --ts-var-root-font-family: 'Anonymous Pro';
+    --ts-var-root-font-family: 'Courier Prime';
     --ts-var-root-text-transform: initial;
   
     /******** Nav bar ********/
     /*Nav bar font color, background color*/
     /* Note: In Radiant design, background nav color will be shade 70, font color shade 40 */
     --ts-var-nav-color: #18d366;
-    --ts-var-nav-background: #372e2f;
+    --ts-var-nav-background: #676666;
     
     /******** Buttons ********/
     
@@ -42,37 +42,37 @@
     /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
     /* Note: In Radiant design, primary button color will be shade 60, hover shade 70 */
     --ts-var-button--primary-color: initial;
-    --ts-var-button--primary-background: #393737;
-    --ts-var-button--primary--hover-background: #4d2e31;
-    --ts-var-button--primary--font-family: initial;
+    --ts-var-button--primary-background: #676666;
+    --ts-var-button--primary--hover-background: #c70ec1;
+    --ts-var-button--primary--font-family: 'Courier Prime';
     
     /* Secondary buttons: For instance most of the buttons on a Liveboard */
     /* Note: In Radiant design, secondary button color will be shade 20, hover shade 30 */
-    --ts-var-button--secondary-color: initial;
-    --ts-var-button--secondary-background: #545252;
-    --ts-var-button--secondary--hover-background: #683f43;
+    --ts-var-button--secondary-color: #18d366;
+    --ts-var-button--secondary-background: #676666;
+    --ts-var-button--secondary--hover-background: #c70ec1;
     --ts-var-button--secondary--font-family: initial;
     
     /* Tertiary buttons: Example the forward / back buttons */
-    --ts-var-button--tertiary-color: initial;
-    --ts-var-button--tertiary-background: initial;
-    --ts-var-button--tertiary--hover-background: initial;
+    --ts-var-button--tertiary-color: #18d366;
+    --ts-var-button--tertiary-background: #676666;
+    --ts-var-button--tertiary--hover-background: #c70ec1;
     
     /******** Visualizations ********/
     /* Viz title customizations*/
-    --ts-var-viz-title-color: rgb(48, 48, 60);
-    --ts-var-viz-title-font-family: initial;
+    --ts-var-viz-title-color: #18d366;
+    --ts-var-viz-title-font-family: 'Courier Prime';
     --ts-var-viz-title-text-transform: italic;
   
     /* Viz subtitle customizations*/
-    --ts-var-viz-description-color: #119648;
-    --ts-var-viz-description-font-family: initial;
+    --ts-var-viz-description-color: #18d366;
+    --ts-var-viz-description-font-family: 'Courier Prime';
     --ts-var-viz-description-text-transform: initial;
     
     /* Viz area customizations*/
     --ts-var-viz-border-radius: 15px;
-    --ts-var-viz-box-shadow: 1px 2px 5px #888888;
-    --ts-var-viz-background: initial;
+    --ts-var-viz-box-shadow: 1px 2px 5px #18d366;
+    --ts-var-viz-background: #676666;
   }
   
   /*# sourceMappingURL=custom_variables.css.map */
