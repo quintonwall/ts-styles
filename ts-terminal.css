@@ -22,7 +22,7 @@
     
     /*App background, app-wide font, app-wide text transform */
     /* Note: In Radiant design, background app color will be shade 10 */
-    --ts-var-root-background: #222;
+    --ts-var-root-background: #1E1E1E;
     --ts-var-root-font-family: 'Courier Prime';
     --ts-var-root-text-transform: initial;
   
@@ -42,38 +42,38 @@
   
     /* Primary buttons: For instance the Go button on the Search bar, when the search bar is clicked on */
     /* Note: In Radiant design, primary button color will be shade 60, hover shade 70 */
-    --ts-var-button--primary-color: #18d366;
-    --ts-var-button--primary-background: #676666;
-    --ts-var-button--primary--hover-background: #c70ec1;
+    --ts-var-button--primary-color: #FFFFFF;
+    --ts-var-button--primary-background: #2E562F;
+    --ts-var-button--primary--hover-background: #438440;
     --ts-var-button--primary--font-family: 'Courier Prime';
     
     /* Secondary buttons: For instance most of the buttons on a Liveboard */
     /* Note: In Radiant design, secondary button color will be shade 20, hover shade 30 */
-    --ts-var-button--secondary-color: #18d366;
-    --ts-var-button--secondary-background: #676666;
-    --ts-var-button--secondary--hover-background: #c70ec1;
-    --ts-var-button--secondary--font-family: initial;
+    --ts-var-button--secondary-color: #FFFFFF;
+    --ts-var-button--secondary-background: #2E562F;
+    --ts-var-button--secondary--hover-background: #438440;
+    --ts-var-button--secondary--font-family: 'Courier Prime';
     
     /* Tertiary buttons: Example the forward / back buttons */
-    --ts-var-button--tertiary-color: #18d366;
-    --ts-var-button--tertiary-background: #676666;
-    --ts-var-button--tertiary--hover-background: #c70ec1;
+    --ts-var-button--tertiary-color: #FFFFFF;
+    --ts-var-button--tertiary-background: #2E562F;
+    --ts-var-button--tertiary--hover-background: #438440;
     
     /******** Visualizations ********/
     /* Viz title customizations*/
-    --ts-var-viz-title-color: #18d366;
+    --ts-var-viz-title-color: #FFFFFF;
     --ts-var-viz-title-font-family: 'Courier Prime';
-    --ts-var-viz-title-text-transform: italic;
+    --ts-var-viz-title-text-transform: initial;
   
     /* Viz subtitle customizations*/
-    --ts-var-viz-description-color: #18d366;
+    --ts-var-viz-description-color: ##F4CA57;
     --ts-var-viz-description-font-family: 'Courier Prime';
     --ts-var-viz-description-text-transform: initial;
     
     /* Viz area customizations*/
     --ts-var-viz-border-radius: 15px;
-    --ts-var-viz-box-shadow: 1px 2px 5px #18d366;
-    --ts-var-viz-background: #676666;
+    --ts-var-viz-box-shadow: 1px 2px 5px #31353F;
+    --ts-var-viz-background: #585A5D;
   }
   
   /*# sourceMappingURL=custom_variables.css.map */
