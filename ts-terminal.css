@@ -6,7 +6,8 @@
     font-style: normal;
     font-weight: 200;
     font-display: swap;
-    src: url(https://fonts.googleapis.com/css?family=Courier+Prime);
+    /* src: url(https://fonts.googleapis.com/css?family=Courier+Prime); */
+    url(https://fonts.gstatic.com/s/courierprime/v7/u-450q2lgwslOqpF_6gQ8kELaw9pWs39pvnRPA.woff2) format('woff2');
   }
   
   /******** Useful design resources ********/
