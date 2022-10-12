@@ -1,14 +1,25 @@
 /*! 
 * Dark mode
 */
+/*
 @font-face {
     font-family: 'Courier Prime';
     font-style: normal;
     font-weight: 200;
     font-display: swap;
     src: url(https://fonts.googleapis.com/css?family=Dancing+Script);
-    /* url(https://fonts.gstatic.com/s/courierprime/v7/u-450q2lgwslOqpF_6gQ8kELaw9pWs39pvnRPA.woff2) format('woff2'); */
+    url(https://fonts.gstatic.com/s/courierprime/v7/u-450q2lgwslOqpF_6gQ8kELaw9pWs39pvnRPA.woff2) format('woff2');
   }
+*/
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v24/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Rep8hNX6plRPjLo.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
   
   /******** Useful design resources ********/
   /* Check our Radiant style guide. For colors: https://radiant.thoughtspot.com/4be2fa497/p/28fa0a-colors/t/835c57 */
@@ -23,7 +34,7 @@
     /*App background, app-wide font, app-wide text transform */
     /* Note: In Radiant design, background app color will be shade 10 */
     --ts-var-root-background: #1E1E1E;
-    --ts-var-root-font-family: 'Courier Prime';
+    --ts-var-root-font-family: initial;
     --ts-var-root-text-transform: initial;
   
     /******** Nav bar ********/
@@ -45,7 +56,7 @@
     --ts-var-button--primary-color: #FFFFFF;
     --ts-var-button--primary-background: #25C729;
     --ts-var-button--primary--hover-background: #2BF630;
-    --ts-var-button--primary--font-family: 'Courier Prime';
+    --ts-var-button--primary--font-family: initial;
     
     /* Secondary buttons: For instance most of the buttons on a Liveboard */
     /* Note: In Radiant design, secondary button color will be shade 20, hover shade 30 */
@@ -67,7 +78,7 @@
   
     /* Viz subtitle customizations*/
     --ts-var-viz-description-color: ##F4CA57;
-    --ts-var-viz-description-font-family: 'Courier Prime';
+    --ts-var-viz-description-font-family: initial;
     --ts-var-viz-description-text-transform: initial;
     
     /* Viz area customizations*/
